@@ -4,10 +4,16 @@ public class GitTraining {
         int nyttTal = increment(heltal);
         System.out.println(nyttTal);
 
+        int product = multiply(3, 5);
+        System.out.println(product);
+
     }
 
     public static int increment(int input) {
         return input + 1;
     }
 
+    public static int multiply(int factor1, int factor2) {
+        return factor1*factor2;
+    }
 }
